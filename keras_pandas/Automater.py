@@ -3,7 +3,7 @@ import logging
 import pandas
 from functools import reduce
 
-from keras.layers import Concatenate
+from tensorflow.keras.layers import Concatenate
 from sklearn_pandas import DataFrameMapper
 
 from keras_pandas.data_types.Boolean import Boolean
