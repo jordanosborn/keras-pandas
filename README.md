@@ -80,10 +80,10 @@ And that's it! In a couple of lines, we've created a model that accepts a few do
 
 ### Installation
 
-You can install `keras-pandas` with `pip`:
+You can install `tf2-keras-pandas` with `pip`:
 
 ```bash
-pip install -U keras-pandas
+pip install -U tf2-keras-pandas
 ```
 
 ### Creating an Automater
