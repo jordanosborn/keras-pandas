@@ -1,8 +1,8 @@
 import logging
 
-import tf.keras as keras
+import tensorflow.keras as keras
 import numpy
-from tf.keras.layers import Bidirectional, LSTM, Embedding
+from tensorflow.keras.layers import Bidirectional, LSTM, Embedding
 
 from keras_pandas import lib
 from keras_pandas.transformations import TypeConversionEncoder, EmbeddingVectorizer
