@@ -7,7 +7,7 @@ from collections import defaultdict
 import numpy
 import pandas
 from gensim.utils import simple_preprocess
-from keras_preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.utils.validation import check_is_fitted, column_or_1d
 
