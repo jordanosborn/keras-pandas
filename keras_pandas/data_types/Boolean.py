@@ -1,6 +1,6 @@
-import keras
-from keras import losses
-from keras.layers import Dense
+import tensorflow.keras as keras
+from tensorflow.keras import losses
+from tensorflow.keras.layers import Dense
 
 from keras_pandas import lib
 from keras_pandas.transformations import TypeConversionEncoder
