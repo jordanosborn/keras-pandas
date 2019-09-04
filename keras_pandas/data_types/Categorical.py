@@ -1,9 +1,9 @@
 import logging
 
-import keras
+import tensorflow.keras as keras
 import numpy
-from keras import losses
-from keras.layers import Embedding, Flatten, Dense
+from tensorflow.keras import losses
+from tensorflow.keras.layers import Embedding, Flatten, Dense
 
 from keras_pandas import lib
 from keras_pandas.transformations import TypeConversionEncoder, CategoricalImputer, LabelEncoder
