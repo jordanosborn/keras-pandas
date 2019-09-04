@@ -2,7 +2,7 @@ from collections import OrderedDict
 
 from setuptools import setup, find_packages
 
-__version__ = '3.1.2'
+__version__ = '3.1.3'
 
 # Add README as long description
 with open("README.md", "r") as fh:
@@ -18,16 +18,16 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     version=__version__,
-    url='https://github.com/jordanosborn/keras-pandas',
+    url='https://github.com/jordanosborn/tf2-keras-pandas',
     author='Brendan Herger & Jordan Osborn',
     author_email='jordan@osborn.dev',
     license='MIT',
     packages=find_packages(),
     install_requires=required,
     project_urls=OrderedDict((
-        ('Code', 'https://github.com/jordanosborn/keras-pandas'),
+        ('Code', 'https://github.com/jordanosborn/tf2-keras-pandas'),
         ('Documentation', 'http://keras-pandas.readthedocs.io/en/latest/intro.html'),
         ('PyPi', 'https://pypi.org/project/tf2-keras-pandas/'),
-        ('Issue tracker', 'https://github.com/jordanosborn/keras-pandas/issues'),
+        ('Issue tracker', 'https://github.com/jordanosborn/tf2-keras-pandas/issues'),
     )),
 )
