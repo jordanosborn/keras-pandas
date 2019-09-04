@@ -1,5 +1,5 @@
-from keras import Model
-from keras.layers import Dense
+from tensorflow.keras import Model
+from tensorflow.keras.layers import Dense
 from sklearn_pandas import DataFrameMapper
 
 from keras_pandas import lib
