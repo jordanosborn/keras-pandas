@@ -1,4 +1,4 @@
-# keras-pandas
+# tf2-keras-pandas
 
 [![CircleCI](https://circleci.com/gh/bjherger/keras-pandas.svg?style=svg)](https://circleci.com/gh/bjherger/keras-pandas)
 [![Documentation Status](https://readthedocs.org/projects/keras-pandas/badge/?version=latest)](https://keras-pandas.readthedocs.io/en/latest/?badge=latest)
@@ -19,12 +19,10 @@ experts.
 
 For more info, check out the:
 
- - [Code](https://github.com/bjherger/keras-pandas)
+ - [Code](https://github.com/jordanosborn/keras-pandas)
  - [Documentation](http://keras-pandas.readthedocs.io/en/latest/intro.html)
- - [PyPi](https://pypi.org/project/keras-pandas/)
+ - [PyPi](https://pypi.org/project/tf2-keras-pandas/)
  - [Issue tracker](https://github.com/bjherger/keras-pandas/issues)
- - [CI/CD](https://circleci.com/gh/bjherger/keras-pandas/tree/master)
- - [Author's website](https://www.hergertarian.com/)
 
 ## Quick Start
 
@@ -33,11 +31,11 @@ particularly fun because this data set contains a mix of text, categorical and n
 lot of null values. 
 
 ```bash
-pip install --upgrade keras-pandas
+pip install --upgrade tf2-keras-pandas
 ```
 
 ```python
-from keras import Model
+from tensorflow.keras import Model
 from keras_pandas import lib
 from keras_pandas.Automater import Automater
 from sklearn.model_selection import train_test_split
@@ -210,23 +208,6 @@ The input nub is correctly formatted to accept the output from `auto.transform()
 for each generated input, may contain addition layers, and has all input piplines joined with a `Concatenate` layer. 
 
 The output layer is correctly formatted to accept the response variable numpy object.  
-
-
-## Contact
-
-Hey, I'm Brendan Herger, avaiable at [https://www.hergertarian.com/](https://www.hergertarian.com/). Please feel free 
-to reach out to me at `13herger <at> gmail <dot> com`
-
-I enjoy bridging the gap between data science and engineering, to build and 
-deploy data products. I'm not currently pursuing contract work. 
-
-I've enjoyed building a unique combination of machine learning, deep learning, and software engineering skills. In my 
-previous work at Capital One and startups, I've has built authorization fraud, insider threat, and legal discovery 
-automation platforms. In each of these cases I've lead a team of data scientists and data engineers to enable and 
-elevate our client's business workflow (and capture some amazing data).
-
-When I'm not knee deep in a code base, I can be found traveling, sharing my collection of Japanese teas, and playing 
-board games with my partner in Seattle. 
 
 ## Changelog
 
