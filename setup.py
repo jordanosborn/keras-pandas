@@ -13,8 +13,8 @@ with open('requirements.txt') as f:
     required = f.read().splitlines()
 
 setup(
-    name='keras-pandas',
-    description='Easy and rapid deep learning',
+    name='tf2-keras-pandas',
+    description='Easy and rapid deep learning - updated for tensorflow 2.0',
     long_description=long_description,
     long_description_content_type="text/markdown",
     version=__version__,
@@ -25,11 +25,9 @@ setup(
     packages=find_packages(),
     install_requires=required,
     project_urls=OrderedDict((
-        ('Code', 'https://github.com/bjherger/keras-pandas'),
+        ('Code', 'https://github.com/jordanosborn/keras-pandas'),
         ('Documentation', 'http://keras-pandas.readthedocs.io/en/latest/intro.html'),
-        ('PyPi', 'https://pypi.org/project/keras-pandas/'),
-        ('Issue tracker', 'https://github.com/bjherger/keras-pandas/issues'),
-        ('CI/CD', 'https://circleci.com/gh/bjherger/keras-pandas/tree/master'),
-        ('Author\'s website', 'https://www.hergertarian.com/')
+        ('PyPi', 'https://pypi.org/project/tf2-keras-pandas/'),
+        ('Issue tracker', 'https://github.com/jordanosborn/keras-pandas/issues'),
     )),
 )
