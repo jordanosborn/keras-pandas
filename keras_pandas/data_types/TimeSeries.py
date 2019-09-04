@@ -1,7 +1,6 @@
 import logging
-
-import keras
-from keras.layers import Reshape, Bidirectional, LSTM
+import tensorflow.keras as keras
+from tensorflow.keras.layers import Reshape, Bidirectional, LSTM
 
 from keras_pandas import lib
 from keras_pandas.transformations import TimeSeriesVectorizer
