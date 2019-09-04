@@ -1,4 +1,4 @@
-from keras.backend import placeholder
+from tensorflow.keras.backend import placeholder
 
 from keras_pandas import lib
 from tests.testbase import TestBase
