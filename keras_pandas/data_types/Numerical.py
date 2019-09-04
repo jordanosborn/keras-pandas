@@ -1,7 +1,7 @@
 import logging
 
-import keras
-from keras.layers import Dense
+import tf.keras as keras
+from tf.keras.layers import Dense
 from sklearn.preprocessing import Imputer, StandardScaler
 
 from keras_pandas import lib
