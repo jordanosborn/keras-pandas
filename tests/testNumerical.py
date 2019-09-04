@@ -1,4 +1,4 @@
-from keras import Model
+from tensorflow.keras import Model
 from sklearn_pandas import DataFrameMapper
 
 from keras_pandas import lib
