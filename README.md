@@ -17,7 +17,7 @@ experts.
 
 For more info, check out the:
 
- - [Code](https://github.com/jordanosborn/keras-pandas)
+ - [Code](https://github.com/jordanosborn/tf2-keras-pandas)
  - [Documentation](http://keras-pandas.readthedocs.io/en/latest/intro.html)
  - [PyPi](https://pypi.org/project/tf2-keras-pandas/)
  - [Issue tracker](https://github.com/bjherger/keras-pandas/issues)
