@@ -1,7 +1,7 @@
 # tf2-keras-pandas
 [![Documentation Status](https://readthedocs.org/projects/keras-pandas/badge/?version=latest)](https://keras-pandas.readthedocs.io/en/latest/?badge=latest)
 
-**tl;dr:** keras-pandas allows users to rapidly build and iterate on deep learning models. 
+**tl;dr:** keras-pandas allows users to rapidly build and iterate on deep learning models. Updated for tensorflow 2.0
 
 Getting data formatted and into keras can be tedious, time consuming, and require domain expertise, whether your a 
 veteran or new to Deep Learning. `keras-pandas` overcomes these issues by (automatically) providing:
