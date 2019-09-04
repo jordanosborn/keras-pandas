@@ -2,8 +2,8 @@ import logging
 import os
 import pickle
 
-from keras import Model
-from keras.layers import Dense
+from tensorflow.keras import Model
+from tensorflow.keras.layers import Dense
 from sklearn.model_selection import train_test_split
 
 from keras_pandas import lib
